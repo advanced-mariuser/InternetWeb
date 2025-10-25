@@ -23,9 +23,9 @@ int main(int argc, char* argv[])
         if (argc < 2)
         {
             throw std::runtime_error(
-                    "Usage:\n"
-                    "  Server mode: ./net-app <port>\n"
-                    "  Client mode: ./net-app <address> <port>\n");
+                "Usage:\n"
+                "  Server mode: ./net-app <port>\n"
+                "  Client mode: ./net-app <address> <port>\n");
         }
 
         if (argc == 2)
