@@ -84,12 +84,12 @@ void Socket::Bind(uint16_t port)
         throw std::runtime_error("setsockopt(SO_REUSEADDR) failed: " + GetSocketErrorString());
     }
 
-    sockaddr_in server_addr{};
-    server_addr.sin_family = AF_INET;
-    server_addr.sin_addr.s_addr = INADDR_ANY;
-    server_addr.sin_port = htons(port);
+    sockaddr_in serverAddr{};
+    serverAddr.sin_family = AF_INET;
+    serverAddr.sin_addr.s_addr = INADDR_ANY;
+    serverAddr.sin_port = htons(port);
 
-    if (bind(m_fd, reinterpret_cast<sockaddr*>(&server_addr), sizeof(server_addr)) == -1)
+    if (bind(m_fd, reinterpret_cast<sockaddr*>(&serverAddr), sizeof(serverAddr)) == -1)
     {
         throw std::runtime_error("bind() failed: " + GetSocketErrorString());
     }
@@ -105,8 +105,8 @@ void Socket::Listen(int backlog)
 
 Socket Socket::Accept()
 {
-    int client_fd = accept(m_fd, nullptr, nullptr);
-    if (client_fd == -1)
+    int clientFd = accept(m_fd, nullptr, nullptr);
+    if (clientFd == -1)
     {
         if (errno == EBADF || errno == EINVAL)
         {
@@ -114,31 +114,31 @@ Socket Socket::Accept()
         }
         throw std::runtime_error("accept() failed: " + GetSocketErrorString());
     }
-    return Socket(client_fd);
+    return Socket(clientFd);
 }
 
 void Socket::SendAll(const void* data, size_t size)
 {
     const char* buffer = static_cast<const char*>(data);
-    size_t total_sent = 0;
-    while (total_sent < size)
+    size_t totalSent = 0;
+    while (totalSent < size)
     {
-        ssize_t sent = send(m_fd, buffer + total_sent, size - total_sent, 0);
+        ssize_t sent = send(m_fd, buffer + totalSent, size - totalSent, 0);
         if (sent == -1)
         {
             throw std::runtime_error("send() failed: " + GetSocketErrorString());
         }
-        total_sent += sent;
+        totalSent += sent;
     }
 }
 
 void Socket::RecvAll(void* data, size_t size)
 {
     char* buffer = static_cast<char*>(data);
-    size_t total_received = 0;
-    while (total_received < size)
+    size_t totalReceived = 0;
+    while (totalReceived < size)
     {
-        ssize_t received = recv(m_fd, buffer + total_received, size - total_received, 0);
+        ssize_t received = recv(m_fd, buffer + totalReceived, size - totalReceived, 0);
         if (received == -1)
         {
             throw std::runtime_error("recv() failed: " + GetSocketErrorString());
@@ -147,7 +147,7 @@ void Socket::RecvAll(void* data, size_t size)
         {
             throw std::runtime_error("Connection closed by peer");
         }
-        total_received += received;
+        totalReceived += received;
     }
 }
 

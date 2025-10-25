@@ -18,7 +18,8 @@ Server::Server(uint16_t port)
 
 void Server::Run()
 {
-    std::cout << "[Server] Started on port " << m_port << ". Name: '" << m_serverName << "', Number: " << m_serverNumber << "\n";
+    std::cout << "[Server] Started on port " << m_port << ". Name: '" << m_serverName << "', Number: " << m_serverNumber
+              << "\n";
 
     while (!m_shouldStop)
     {
@@ -37,7 +38,8 @@ void Server::Run()
         }
         catch (const std::exception& e)
         {
-            if (!m_shouldStop) {
+            if (!m_shouldStop)
+            {
                 std::cerr << "[Server] Accept failed: " << e.what() << std::endl;
             }
         }
@@ -61,7 +63,7 @@ void Server::HandleClient(Socket clientSocket)
         std::cout << "  Sum:           " << (clientMessage.number + clientMessage.number) << "\n";
         std::cout << "-------------------------------------\n";
 
-        Protocol::Message serverMessage{ m_serverName, m_serverNumber };
+        Protocol::Message serverMessage{m_serverName, m_serverNumber};
         Protocol::WriteMessage(clientSocket, serverMessage);
         std::cout << "[Server] Sent response to client.\n";
 
