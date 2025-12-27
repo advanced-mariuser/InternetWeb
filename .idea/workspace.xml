@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="rdtp-protocol" targetName="rdt-receiver" />
+      <config projectName="rdtp-protocol" targetName="rdtp-sender" />
+      <config projectName="rdtp-protocol" targetName="rdtp-lib" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" TOOLCHAIN_NAME="Default" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02cba3f1-9cd2-4497-b942-2e71fd977ea9" name="Changes" comment="Push all laba">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/InternetWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/docs/doc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/docs/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/main_receiver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/received_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/screenshots/receiverlog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/screenshots/receved_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/screenshots/senderlog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Common/UdpSocket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Common/UdpSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Core/RdtReceiver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Core/RdtReceiver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Core/RdtSender.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Core/RdtSender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Protocol/Packet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Protocol/UnreliableChannel.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/src/Protocol/UnreliableChannel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12lab/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/docs/algorithm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/main_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/main_server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/screenshots/client.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/screenshots/loss30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/screenshots/server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/Client/PingClient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/Client/PingClient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/Common/UdpSocket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/Common/UdpSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/Server/PingServer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13lab/src/Server/PingServer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/03974ebdd6d852e2ee346dfe4c613f1016f1a5cba6470b4a7219dfa8520a3641" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/0f64942156447fe375f3e664e91ac8a8a302e2521e84ddb77cb0c0989556b9e9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/0fc34b10e226488e78f8957b3c967f03e77ce00a8814b60de0d1d495e4382569" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/13af2168a6b23eceeb8523f2c0eb3400ede457c3feace869cc8bb22c9f6b48ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/16351d9d0b4bdbb147b75b831be2678033f2213c17a0a339268ef4a0d0967eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/1a2127e1aece98c3301cfd2e0e143da59f626b05b9ffe20c409daafd0bd00f01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/1b785494d84c173c4f6a4812de1ba79249ea40cb3e9c19b46f0dbc21ef9653b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/1f7a8356c4c488d637d796fdda1ce9f6104f59433231e5608ee1a5799b4f5264" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/2074a954f76af3063ccdbdf16d30ed39fd32dbebceee55de785b1de37910d159" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/27e5976669063bd80c8aad458f3fa3d7c029fc465ddd9d51f6ae514f33d84e04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/28529d93f1310d469eef23f6089a43d5f967fba8f3a8834191f5b09a81517aee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/3705b33ba9ca26b5e53d0570f444455ed289d6e5a07db5e33f810ceaa4767bf7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/393044a22074fe7bcd62f3bf06ba652c29070f9f19f2bc5e353ff228be8c723a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/3d0ae28c41d59972b783fd1c02fa1da464ab3eb7fa6b9ae0f1f010e819eb1aec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/419c71297e100d31be64d0ae9b2528cf93ff434399efa3ee57e322cfa90df168" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/43e291928347479102e81328bba5576ec78a3b24d44b51634daa27c78468bdab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/49b53cf7baca3e7f1996e52d736b188c371ca0a91a53907f84e86e9365354356" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/59b632409a18da0776942cd17dce663043156a715211c99f7c66520bd4064086" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/5e2c47b7443fa083917d27898b4b4ef3243317491db9a7b88b8b3b31f31bb457" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/62a61909a2a29d3b950ae6062fa019b1fecd1d87b22f90b68f724b90d6e2ea99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/644933e4b3469299339c4ac48d0d5ab7cf1689132b6f8d55bbd36fd272a58ba7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/673ba9283f463f05b98608d98fcb4c8034358d1ad1862df4b4ce9b916a67124a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/71af7a7a583393d3ac12471919102a4a164b1520acec6ee3823f4499828bb638" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/7782dcee77f3a239b6531991941231e9a2cf0ffd4b25ee0c89afedb44b23aa74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/77ef1b0d51f8c120940e6aa2554cd877770c720872de04fe854d87b1526690b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/7baed20bcf368bd473a21262e81f3fcd6b42a2013cc43292c5fe171f2d5874a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/80c759eb43d2106173905702b2d1c2f9557ece2529ae8e5cbf0b8cacc76c45ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/822de903c768e14b6227b726e0b1f15400b4b3f518980e1a0ffd63f3c068ece2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/886925b61d58f26c5d7071b092c8707709afd42e0cad0db256c01f481efed4fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/88723b7d306293ad490eb9ce5a3303d757cf6c07bb5c4204314e90d784172b0e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/8bac3e703bd92705e3646f7367eec4f9c1866759fb2ff3cb17452fde37a52292" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/8bddcf805ac06af3e555763ba83ddc3909eab3ef3959f426f60d1ecce1631b24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/8e37037913be228f104bf84d947da511926f650c90a84966a3c24fe182229ba9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/9093e055044f239f03c53aebc8ad6755c5f68d3cf5a88123670d90f4e26c233b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/94e19c57c356737077ddd84ba66c7b1681743d846684bbbc21a45650b72cab2e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/979bc1e38608eb22b91cf0be2bd3c92c45149cde328680a5c0389f0010f4992c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/97ccf46684c61b2ccb62ca458d9ed10877d5fd73a9a7b70483055f43fa25fc85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/a417d8cf3686412ce670bc783efb2ba8d37dc37950c2d1bbc6d6da78b317a9ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/a99a54b9528126ed17385eb9d9c476606b44b28348e6edac5ba649942bc8f62c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/acae45ea36216932110d93be8fd50e66f5806ea0afa0271b6519acffe26ddb0b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/ae6f6c2708efdd8992f3ac0049ee47464837921d15e14746c4f3b6485e790fa5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/b21e9bbb8c8dfbc63e992fb3c316ecf07faea9cd786769eafac10138bd19efef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/b2b32437091504326643e018cc9b8ac8e53810769c972a7decf3a26eb823d76d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/b4d96b5b161b2d01a3f96f2150fc7f43c6dd6b189483e1e12c00c747d43dd196" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/ba54a78ab8ec662f906ef54d825b3d60aa68d8672b7bcab26702a08fff6742a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/bde5dd9f580f00be5b5f242b97b081a3d957ffd040c69f441bc7f8d3c2d17753" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/c01550ce80ccd47ffaf7469ddec8a7c57b1027965968210b59b76d0728c793af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/c172c2cc23705759d8ece52b9661e8d42fcc668ec200940ca6d25f42aa34fe36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/c25dd275772ae4785cef39fc3246036ef58ed905649a6898a8b019c433a32981" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/c4e8cb576d8fabea6370ae5cf30119e6fed7bac5863b810340b3a5bbb3dd3231" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/cc68c1928b5c3585170faca61df21e5a20812fa8bce8651669ec1e0b1583595f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/d817780f4e69478fe2fdb24d196fbecb3e5592cbf7a83c45fc3d5d7bb250444a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/e71db10ebf710f62eeb82294c511aa0d6529d8746f43a952ed488fd16ce16aee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/e8b21c3707483a374d5b9661d1764882d4ce8b8431cdc6909a62b7d8d8c8695e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/e9afe5c669b27e1f3e913a294c0890e1972a723ba11dbfeaf058fdb977dd65be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/ea4ccc1f982042b2adc07f1cfbb1eb6a99f3374379abb4fe0fb590b45b20560b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/eda68c28efd49de5d95906cc270dcf11fe09c4ec27084ae58205abeecbc46418" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/eee9c2eb14e0702cced818c137f29f40d0489e3f716088fb6689399f28c456c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/ef69b9e09ea97c19a18b716d5241744b6ffd587c75bb56d97e3fe86d8c7baede" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/f02e5d1f09a87227f8e91b722dc0cbde6715ec1aaf2b578ffe3cfaa4f8794602" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/f4c47f7e8704646dee6d4bf31ea6a9f04a0ef538339b3270de6292bec77e7113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/cache/fab672bcf684b01497a96df8c07e691c2841152eaa8c2db9d8e0082818debad7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/docs/algorithm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/docs/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/screenshots/browser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/screenshots/cachehit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/screenshots/proxysite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Cache/CacheManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Cache/CacheManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Common/TcpSocket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Common/TcpSocket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Core/ClientHandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Core/ClientHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Core/ProxyServer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Core/ProxyServer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Http/HttpRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14lab/src/Http/HttpRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/attachments/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/attachments/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/attachments/password.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/attachments/report.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/docs/documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/docs/sequence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/docs/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/screenshots/localTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/screenshots/recevied_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/screenshots/send_attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Common/Base64.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Common/Socket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Common/Socket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Core/SmtpClient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Core/SmtpClient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Mime/MimeBuilder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Mime/MimeBuilder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Model/Attachment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7lab/src/Model/Email.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/docs/algorithm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/docs/documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/docs/sequence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/docs/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/screenshots/udp_and_tcp_resolve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/Common/Socket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/Common/Socket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/Core/Resolver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/Core/Resolver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/Dns/DnsMessage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9lab/src/Dns/DnsMessage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5lab/docs/documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/5lab/docs/documentation.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;advanced-mariuser&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/advanced-mariuser/InternetWeb.git&quot;,
+    &quot;accountId&quot;: &quot;1506fa56-3c3d-4011-9493-38049845244c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/12lab/src/Common/UdpSocket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12lab/src/Core/RdtReceiver.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12lab/src/Core/RdtSender.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12lab/src/Protocol/Packet.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/12lab/src/Protocol/UnreliableChannel.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/13lab/src/Client/PingClient.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/13lab/src/Common/UdpSocket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/13lab/src/Server/PingServer.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14lab/src/Cache/CacheManager.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14lab/src/Common/TcpSocket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14lab/src/Core/ClientHandler.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14lab/src/Core/ProxyServer.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14lab/src/Http/HttpRequest.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4lab/net-app/src/Common/Socket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/5lab/src/Common/Socket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/5lab/src/Core/Server.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/5lab/src/Http/HttpRequest.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/5lab/src/Http/HttpRequest.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/5lab/src/Http/HttpResponse.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/5lab/src/Http/HttpResponse.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/7lab/src/Common/Socket.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/7lab/src/Common/Socket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/7lab/src/Core/SmtpClient.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/7lab/src/Core/SmtpClient.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/7lab/src/Model/Email.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/9lab/src/Common/Socket.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/9lab/src/Core/Resolver.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/9lab/src/Dns/DnsMessage.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/include/netinet/in.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.6" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34ZLSxgnawM9sx3zOTC0eHFLJIV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.dns-resolver.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gleb.paybarshev/projects/InternetWeb/7lab/attachments",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CPPToolchains",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7lab/attachments" />
+      <recent name="$PROJECT_DIR$/14lab" />
+      <recent name="$PROJECT_DIR$/13lab" />
+      <recent name="$PROJECT_DIR$/12lab" />
+      <recent name="$PROJECT_DIR$/9lab" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.rdtp-sender">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dns-resolver" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="yandex.ru A -d" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rdtp-protocol" TARGET_NAME="dns-resolver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rdtp-protocol" RUN_TARGET_NAME="dns-resolver">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdt-receiver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rdtp-protocol" TARGET_NAME="rdt-receiver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rdtp-protocol" RUN_TARGET_NAME="rdt-receiver">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdtp-lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rdtp-protocol" TARGET_NAME="rdtp-lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdtp-sender" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rdtp-protocol" TARGET_NAME="rdtp-sender" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rdtp-protocol" RUN_TARGET_NAME="rdtp-sender">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.dns-resolver" />
+      <item itemvalue="CMake Application.rdt-receiver" />
+      <item itemvalue="CMake Application.rdtp-sender" />
+      <item itemvalue="CMake Application.rdtp-lib" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02cba3f1-9cd2-4497-b942-2e71fd977ea9" name="Changes" comment="" />
+      <created>1761416150318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761416150318</updated>
+      <workItem from="1761416151327" duration="9696000" />
+      <workItem from="1761660934867" duration="733000" />
+      <workItem from="1761664096920" duration="628000" />
+      <workItem from="1764603174211" duration="407000" />
+      <workItem from="1765183476676" duration="1000" />
+      <workItem from="1765280606518" duration="4816000" />
+      <workItem from="1765294546680" duration="1298000" />
+      <workItem from="1765488620989" duration="6221000" />
+      <workItem from="1765544891598" duration="13284000" />
+      <workItem from="1766779977339" duration="14719000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add 5 lab &#10;Web-server">
+      <option name="closed" value="true" />
+      <created>1761433547389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761433547389</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add gitignore">
+      <option name="closed" value="true" />
+      <created>1761433580005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761433580005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add 5 lab &#10;Web-server" />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="Push all laba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push all laba" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/9lab/src/Core/Resolver.cpp</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

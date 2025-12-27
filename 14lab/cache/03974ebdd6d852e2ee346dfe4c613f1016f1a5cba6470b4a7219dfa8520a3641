@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Dec 2025 00:09:51 GMT
+Content-Type: image/svg+xml
+Content-Length: 649
+Last-Modified: Tue, 14 Oct 2025 12:10:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=10
+Vary: Accept-Encoding
+ETag: "68ee3dd1-289"
+Expires: Sat, 10 Jan 2026 00:09:51 GMT
+Cache-Control: max-age=1209600
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-src 'self';
+Accept-Ranges: bytes
+
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"><desc>Created with Sketch.</desc><path fill="#0A3FB4" fill-rule="evenodd" d="M26 13c0 -7.1797 -5.8203 -13 -13 -13c-7.1797 0 -13 5.8203 -13 13c0 7.1797 5.8203 13 13 13c7.1797 0 13 -5.8203 13 -13zm-2 0c0 -6.075 -4.925 -11 -11 -11c-6.075 0 -11 4.925 -11 11c0 6.075 4.925 11 11 11c6.075 0 11 -4.925 11 -11zm-11 1.6004l3.2902 -3.3048c0.389 -0.392 1.0222 -0.3944 1.4142 -0.0054c0.392 0.389 0.3944 1.0222 0.0054 1.4142l-3.9773 4.0227c-0.39 0.3932 -1.0254 0.3944 -1.417 0.0028l-4.0226 -4.0227c-0.3906 -0.3904 -0.3906 -1.0236 0 -1.414c0.3904 -0.3906 1.0236 -0.3906 1.414 0l3.293 3.3074z"/></svg>
