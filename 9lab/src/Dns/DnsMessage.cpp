@@ -33,7 +33,7 @@ std::vector<char> DnsMessage::BuildQuery(const std::string& domainName, uint16_t
     DnsHeader header{};
     std::random_device rd;
     header.id = htons(rd());
-    header.flags = htons(1 << 8);
+    header.flags = htons(0);
     header.qdcount = htons(1);
 
     buffer.insert(buffer.end(), (char*)&header, (char*)&header + sizeof(header));
